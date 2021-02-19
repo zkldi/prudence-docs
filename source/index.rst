@@ -1,6 +1,12 @@
 Prudence Documentation
 ====================================
 
+Prudence is a simple JS object validator.
+
+The source code can be found `here <https://github.com/zkldi/Prudence>`_.
+
+The current version for Prudence is ``v0.1.1``.
+
 #########
 Validator
 #########
