@@ -43,7 +43,7 @@ Example usage:
 .. _util_middleware_errorhandler:
 
 Error Handler
-===========================
+###########################
 
 A function which is passed 4 parameters. In order; ``req``, ``res``, ``next``, ``errMsg``.
 
