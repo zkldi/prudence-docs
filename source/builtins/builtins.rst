@@ -93,6 +93,16 @@ The arguments they expect are detailed in their below definitions.
 
     :returns: :ref:`validation_fn`
 
+.. function:: regex(regex)
+
+    Returns a function that checks whether the input is a string and matches the given regex.
+
+    This exists because regex.test coerces input to a string, even when thats not what we want.
+
+    :param regex regex: The number the string's length must be greater than or equal to.
+
+    :returns: :ref:`validation_fn`
+
 .. warning:: The below functions exist because the ``<``, ``<=``, ``>`` and ``>=`` operators in JS are not strict (think ``==``)
     and convert non-numeric input into numbers, when that's almost certainly not what you'd want.
 
