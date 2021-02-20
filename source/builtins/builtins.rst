@@ -82,6 +82,17 @@ The arguments they expect are detailed in their below definitions.
 
     :returns: :ref:`validation_fn`
 
+.. function:: isBoundedString(lower, upper)
+
+    Returns a function that checks whether a value is a string and its length is between the two arguments.
+
+    This is inclusive on both ends.
+
+    :param integer lower: The number the string's length must be greater than or equal to.
+    :param integer upper: The number the string's length must be less than or equal to.
+
+    :returns: :ref:`validation_fn`
+
 .. warning:: The below functions exist because the ``<``, ``<=``, ``>`` and ``>=`` operators in JS are not strict (think ``==``)
     and convert non-numeric input into numbers, when that's almost certainly not what you'd want.
 

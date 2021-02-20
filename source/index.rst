@@ -5,7 +5,9 @@ Prudence is a simple JS object validator.
 
 The source code can be found `here <https://github.com/zkldi/Prudence>`_.
 
-The current version for Prudence is ``v0.1.1``.
+Prudence is available for download on `npm <https://npmjs.org/prudence>`_.
+
+The current version for Prudence is ``v0.3.0``.
 
 .. toctree::
     :maxdepth: 2
